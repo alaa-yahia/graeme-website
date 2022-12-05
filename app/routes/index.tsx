@@ -1,7 +1,16 @@
+import Layout from "~/components/layout";
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome</h1>
-    </div>
+    <>
+      <Layout>
+        <div className="bg-roseWhite flex">
+          <div className="w-1/2"></div>
+          <div className="w/12">
+            Bespoke Cabinetry Designed, manufactured and fitted to suit the
+            needs of your space Learn More
+          </div>
+        </div>
+      </Layout>
+    </>
   );
 }
