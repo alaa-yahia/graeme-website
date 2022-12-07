@@ -31,7 +31,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="font-sans">
+      <body className="font-sans mx-10 mt-8">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
