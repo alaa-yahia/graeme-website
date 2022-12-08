@@ -15,9 +15,9 @@ export default function Index() {
               className="w-full h-auto"
             ></img>
           </div>
-          <div className="md:w-1/2 flex flex-col justify-around pl-12">
+          <div className="md:w-1/2 flex flex-col space-y-4 md:justify-around pl-1 md:pl-12">
             <div className="flex flex-col">
-              <p className="text-roseBrown font-medium text-4xl md:w-1/6">
+              <p className="text-roseBrown font-medium text-4xl md:w-1/6 mt-4 ">
                 Bespoke Cabinetry
               </p>
               <p className="text-sm mt-3 md:mr-14">
@@ -39,7 +39,7 @@ export default function Index() {
               className="w-full h-auto"
             ></img>
           </div>
-          <div className="md:w-1/2 flex flex-col justify-around pl-12">
+          <div className="md:w-1/2 flex flex-col space-y-4 md:justify-around pl-1 md:pl-12">
             <div className="flex flex-col">
               <p className="text-roseBrown font-medium text-4xl md:w-1/6">
                 Product Design
