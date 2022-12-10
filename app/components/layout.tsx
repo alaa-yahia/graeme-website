@@ -40,7 +40,10 @@ export default function Layout({ children }: PropsType) {
         >
           <ul className="flex flex-col mx-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
             <li>
-              <Link to="#" className="block py-2 pl-3 pr-4 rounded md:p-0 ">
+              <Link
+                to="/bespoke-cabinetry"
+                className="block py-2 pl-3 pr-4 rounded md:p-0 "
+              >
                 Bespoke Cabinetry
               </Link>
             </li>
