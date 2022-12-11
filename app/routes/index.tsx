@@ -7,7 +7,7 @@ export default function Index() {
   return (
     <>
       <Layout>
-        <div className="bg-roseWhite flex flex-col md:flex-row my-5 h-auto">
+        <div className="bg-roseWhite flex flex-col md:flex-row mt-5 h-auto">
           <div className="md:w-1/2">
             <img
               src={bespokeDesign}
@@ -31,7 +31,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="bg-roseWhite flex flex-col md:flex-row mb-3">
+        <div className="bg-roseWhite flex flex-col md:flex-row mt-10">
           <div className="md:w-1/2">
             <img
               src={productDesign}

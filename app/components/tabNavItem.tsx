@@ -16,7 +16,14 @@ const TabNavItem = ({
   };
 
   return (
-    <li onClick={handleClick} className={activeTab === id ? "active" : ""}>
+    <li
+      onClick={handleClick}
+      className={
+        activeTab === id
+          ? "opacity-100 pb-3 border-b-4 border-current"
+          : "opacity-50"
+      }
+    >
       {title}
     </li>
   );

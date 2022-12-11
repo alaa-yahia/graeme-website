@@ -15,8 +15,8 @@ const Tabs = () => {
   ];
   const tabsContent: any = [ConsultationTab, SurveyTab];
   return (
-    <div className="Tabs">
-      <ul className="nav">
+    <div className="w-9/12 mx-auto mt-10">
+      <ul className="flex justify-between text-roseBrown">
         {tabsTitle.map((title, index) => (
           <TabNavItem
             key={title}
@@ -28,7 +28,7 @@ const Tabs = () => {
         ))}
       </ul>
 
-      <div className="outlet">
+      <div className="mt-10">
         {tabsContent.map((tabContent: any, index: number) => {
           const Component = tabContent;
           return (
