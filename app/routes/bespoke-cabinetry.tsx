@@ -5,10 +5,10 @@ import bespokeDesign from "../../public/bespoke_design.png";
 
 export default function Index() {
   return (
-    <>
-      <div className="h-[calc(100vh-10rem)] bg-roseWhite pt-16 px-20">
+    <div>
+      <div className="md:h-[calc(100vh-10rem)] bg-roseWhite pt-16 px-20">
         <Header />
-        <div className="flex flex-col md:flex-row md:justify-between py-14">
+        <div className="flex flex-col-reverse md:flex-row md:justify-between py-14">
           <div className="md:w-1/2 flex flex-col space-y-4 md:justify-around pl-1">
             <div className="flex flex-col">
               <p className="text-roseBrown font-medium text-6xl md:w-1/6 mt-4 leading-tight">
@@ -32,6 +32,6 @@ export default function Index() {
         </div>
       </div>
       <BespokeCabinetryTabs />
-    </>
+    </div>
   );
 }

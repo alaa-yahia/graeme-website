@@ -24,19 +24,21 @@ const Tabs = () => {
     ManufactureTab,
   ];
   return (
-    <div className="w-9/12 mx-auto my-10 max-h-screen text-lg">
-      <ul className="flex justify-between text-roseBrown">
+    <div className="w-9/12 mx-auto my-10 text-lg">
+      <ul className="flex md:flex-row flex-col justify-between text-roseBrown">
         {tabsTitle.map((title, index) => {
           const Component = tabsContent[index];
           return (
-            <li key={title}>
+            <li key={title} className="">
               <TabNavItem
                 title={title}
                 id={index}
                 activeTab={activeTab}
                 setActiveTab={setActiveTab}
               />
-              <div className="md:hidden">{Component && <Component />}</div>
+              <div className="md:hidden text-black my-8">
+                {Component && <Component />}
+              </div>
             </li>
           );
         })}

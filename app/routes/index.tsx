@@ -15,7 +15,7 @@ export default function Index() {
             className="w-full h-auto"
           ></img>
         </div>
-        <div className="md:w-1/2 flex flex-col space-y-4 md:justify-around pl-3 md:pl-12 pb-10 md:pb-0">
+        <div className="md:w-1/2 flex flex-col space-y-4 md:justify-around px-3 md:pl-12 pb-10 md:pb-0">
           <div className="flex flex-col">
             <p className="text-roseBrown font-medium text-4xl md:text-6xl md:w-1/6 mt-4 leading-tight">
               Bespoke Cabinetry

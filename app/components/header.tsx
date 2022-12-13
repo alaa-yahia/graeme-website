@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function Header() {
   const [displayed, setDisplayed] = useState(false);
   return (
-    <div className="flex flex-wrap items-center justify-between font-medium text-xl">
+    <div className="flex flex-wrap items-center justify-between text-lg">
       <Link to="/" className="flex items-center">
         <span>STUDIO GILBERT</span>
       </Link>
