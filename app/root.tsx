@@ -31,7 +31,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="font-sans px-12 pt-10 max-w-screen">
+      <body className="font-sans max-w-screen">
         <Outlet />
         <ScrollRestoration />
         <Scripts />

@@ -1,37 +1,37 @@
 import { HiArrowSmRight } from "react-icons/hi";
-import Layout from "~/components/layout";
+import Header from "~/components/header";
 import BespokeCabinetryTabs from "~/components/bespokeCabinetryTabs/tabs";
 import bespokeDesign from "../../public/bespoke_design.png";
 
 export default function Index() {
   return (
     <>
-      <Layout>
-        <div className="bg-roseWhite flex flex-col md:flex-row my-5 h-auto">
-          <div className="md:w-1/2">
+      <div className="h-[calc(100vh-10rem)] bg-roseWhite pt-16 px-20">
+        <Header />
+        <div className="flex flex-col md:flex-row md:justify-between py-14">
+          <div className="md:w-1/2 flex flex-col space-y-4 md:justify-around pl-1">
+            <div className="flex flex-col">
+              <p className="text-roseBrown font-medium text-6xl md:w-1/6 mt-4 leading-tight">
+                Bespoke Cabinetry
+              </p>
+              <p className="mt-3 md:mr-14">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div className="md:w-1/3 md:h-1/3">
             <img
               src={bespokeDesign}
               alt="bespoke design"
               className="w-full h-auto"
             ></img>
           </div>
-          <div className="md:w-1/2 flex flex-col space-y-4 md:justify-around pl-1 md:pl-12">
-            <div className="flex flex-col">
-              <p className="text-roseBrown font-medium text-4xl md:w-1/6 mt-4 ">
-                Bespoke Cabinetry
-              </p>
-              <p className="text-sm mt-3 md:mr-14">
-                Designed, manufactured and fitted to suit the needs of your
-                space
-              </p>
-            </div>
-            <p className="text-roseBrown font-medium">
-              <span>Learn More</span> <HiArrowSmRight className="inline" />
-            </p>
-          </div>
         </div>
-        <BespokeCabinetryTabs />
-      </Layout>
+      </div>
+      <BespokeCabinetryTabs />
     </>
   );
 }

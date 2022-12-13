@@ -1,6 +1,6 @@
 const ConsultationTab = () => {
   return (
-    <p className="TabContent">
+    <p>
       The best way to establish if a bespoke solution if right for you is an
       initial consultation, free of charge. This will normally be done over the
       phone and should take around 15mins. This conversation will briefly

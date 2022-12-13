@@ -16,16 +16,16 @@ const TabNavItem = ({
   };
 
   return (
-    <li
+    <p
       onClick={handleClick}
-      className={
+      className={`${
         activeTab === id
-          ? "opacity-100 pb-3 border-b-4 border-current"
-          : "opacity-50"
-      }
+          ? "opacity-100 md:pb-3 md:border-b-4 md:border-current text-2xl"
+          : "md:opacity-50"
+      } md:cursor-pointer`}
     >
       {title}
-    </li>
+    </p>
   );
 };
 export default TabNavItem;

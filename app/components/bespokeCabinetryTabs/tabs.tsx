@@ -3,6 +3,9 @@ import TabNavItem from "../tabNavItem";
 import TabContentItem from "../tabContentItem";
 import ConsultationTab from "./consultationTab";
 import SurveyTab from "./surveyTab";
+import DesignTab from "./designTab";
+import InstallTab from "./installTab";
+import ManufactureTab from "./manufactureTab";
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState<number>(0);
@@ -13,22 +16,33 @@ const Tabs = () => {
     "Manufacture",
     "Install",
   ];
-  const tabsContent: any = [ConsultationTab, SurveyTab];
+  const tabsContent: any = [
+    ConsultationTab,
+    SurveyTab,
+    DesignTab,
+    InstallTab,
+    ManufactureTab,
+  ];
   return (
-    <div className="w-9/12 mx-auto mt-10">
+    <div className="w-9/12 mx-auto my-10 max-h-screen text-lg">
       <ul className="flex justify-between text-roseBrown">
-        {tabsTitle.map((title, index) => (
-          <TabNavItem
-            key={title}
-            title={title}
-            id={index}
-            activeTab={activeTab}
-            setActiveTab={setActiveTab}
-          />
-        ))}
+        {tabsTitle.map((title, index) => {
+          const Component = tabsContent[index];
+          return (
+            <li key={title}>
+              <TabNavItem
+                title={title}
+                id={index}
+                activeTab={activeTab}
+                setActiveTab={setActiveTab}
+              />
+              <div className="md:hidden">{Component && <Component />}</div>
+            </li>
+          );
+        })}
       </ul>
 
-      <div className="mt-10">
+      <div className="mt-10 hidden md:block h-full">
         {tabsContent.map((tabContent: any, index: number) => {
           const Component = tabContent;
           return (
