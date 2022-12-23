@@ -8,7 +8,7 @@ module.exports = {
         sans: ["Roboto Flex", ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        roseWhite: "#FFF9F8",
+        roseWhite: "#FFF5EE",
         roseBrown: "#B69A96",
       },
     },
