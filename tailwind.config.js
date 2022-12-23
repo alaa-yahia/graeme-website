@@ -9,7 +9,7 @@ module.exports = {
       },
       colors: {
         roseWhite: "#FFF5EE",
-        roseBrown: "#B69A96",
+        roseBrown: "#A67972",
       },
     },
   },
