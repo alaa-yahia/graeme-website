@@ -1,9 +1,9 @@
-import { HiArrowSmRight } from "react-icons/hi";
 import Header from "~/components/header";
+import ScrollToTop from "~/components/scrollToTop";
 import BespokeCabinetryTabs from "~/components/bespokeCabinetryTabs/tabs";
 import bespokeDesign from "../../public/bespoke_design.png";
 
-export default function Index() {
+export default function Bespoke() {
   return (
     <div>
       <div className="md:h-[calc(100vh-10rem)] bg-roseWhite pt-16 px-20">
@@ -14,11 +14,14 @@ export default function Index() {
               <p className="text-roseBrown font-medium text-6xl md:w-1/6 mt-4 leading-tight">
                 Bespoke Cabinetry
               </p>
-              <p className="mt-3 md:mr-14">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+              <p className="mt-3 md:mr-14 text-xl">
+                Furniture and storage solutions designed and made to
+                specification here in Glasgow. Graeme works on a small to medium
+                scale from his workshop and studio, primarily on contemporary
+                bespoke pieces of free-standing furniture and fitted wardrobes
+                in birch plywood. <br /> <br />
+                The starting price for any bespoke project begins at £1600 +
+                VAT.
               </p>
             </div>
           </div>
@@ -32,6 +35,7 @@ export default function Index() {
         </div>
       </div>
       <BespokeCabinetryTabs />
+      <ScrollToTop />
     </div>
   );
 }

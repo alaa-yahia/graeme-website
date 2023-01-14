@@ -9,7 +9,7 @@ const TabContentItem = ({
   activeTab,
   children,
 }: TabContentItemPropsType) => {
-  return activeTab === id ? <div>{children}</div> : null;
+  return activeTab === id ? <div className="pl-4">{children}</div> : null;
 };
 
 export default TabContentItem;

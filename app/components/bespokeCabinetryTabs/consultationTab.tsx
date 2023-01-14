@@ -1,13 +1,16 @@
 const ConsultationTab = () => {
   return (
-    <p>
-      The best way to establish if a bespoke solution if right for you is an
-      initial consultation, free of charge. This will normally be done over the
-      phone and should take around 15mins. This conversation will briefly
-      explore the needs of the space, timeline and budget. Once this is
-      understood, an informal guideline quote can be provided - this also helps
-      to outline a budget if you are unsure of how much a project will cost.
-    </p>
+    <ul className="list-disc">
+      <li>Initial consultation over the phone - free of charge.</li>
+      <li>
+        Outlining the general parameters of your project and budget you have in
+        mind.
+      </li>
+      <li>
+        Introducing you to the design process and costs to inform your next step
+        with Studio Gilbert.
+      </li>
+    </ul>
   );
 };
 

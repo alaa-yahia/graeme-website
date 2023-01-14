@@ -1,9 +1,15 @@
 const InstallTab = () => {
   return (
-    <p>
-      Once all items have been manufactured they are ready to be delivered to
-      the space and installed. Delivery and installation is agreed in advance.
-    </p>
+    <ul className="list-disc">
+      <li>
+        A minimum charge of £50 will be included to the total cost of any
+        project to cover fuel and driving time.
+      </li>
+      <li>
+        Delivery and any installation required will be costed depending on the
+        scale of project and delivery location.
+      </li>
+    </ul>
   );
 };
 

@@ -20,7 +20,7 @@ const TabNavItem = ({
       onClick={handleClick}
       className={`${
         activeTab === id
-          ? "opacity-100 md:pb-3 md:border-b-4 md:border-current md:text-2xl"
+          ? "opacity-100 md:pb-3 md:border-b-4 md:border-current md:text-xl"
           : "md:opacity-50"
       } md:cursor-pointer md:text-base text-2xl`}
     >
