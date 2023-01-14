@@ -993,6 +993,19 @@ video {
   border-color: currentColor;
 }
 
+.hover\:font-bold:hover {
+  font-weight: 700;
+}
+
+.hover\:font-extrabold:hover {
+  font-weight: 800;
+}
+
+.hover\:text-roseBrown:hover {
+  --tw-text-opacity: 1;
+  color: rgb(166 121 114 / var(--tw-text-opacity));
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }

@@ -5,7 +5,10 @@ export default function Header() {
   const [displayed, setDisplayed] = useState(false);
   return (
     <div className="flex flex-wrap items-center justify-between text-lg">
-      <NavLink to="/" className="flex items-center uppercase">
+      <NavLink
+        to="/"
+        className="flex items-center uppercase hover:text-roseBrown hover:font-extrabold"
+      >
         <span>studio gilbert</span>
       </NavLink>
       <button
