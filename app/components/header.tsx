@@ -1,10 +1,6 @@
 import { NavLink } from "@remix-run/react";
 import { useState } from "react";
 
-const activeStyle = {
-  textDecoration: "underline",
-};
-
 export default function Header() {
   const [displayed, setDisplayed] = useState(false);
   return (

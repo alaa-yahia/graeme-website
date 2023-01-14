@@ -665,6 +665,14 @@ video {
   height: calc(100vh - 6rem);
 }
 
+.h-3\/4 {
+  height: 75%;
+}
+
+.h-1\/2 {
+  height: 50%;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -679,6 +687,14 @@ video {
 
 .w-9\/12 {
   width: 75%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .cursor-pointer {
