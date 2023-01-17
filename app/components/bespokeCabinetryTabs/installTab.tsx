@@ -1,6 +1,8 @@
+import TabContainer from "./tabContainer";
+
 const InstallTab = () => {
   return (
-    <ul className="list-disc">
+    <TabContainer>
       <li>
         A minimum charge of £50 will be included to the total cost of any
         project to cover fuel and driving time.
@@ -9,7 +11,7 @@ const InstallTab = () => {
         Delivery and any installation required will be costed depending on the
         scale of project and delivery location.
       </li>
-    </ul>
+    </TabContainer>
   );
 };
 

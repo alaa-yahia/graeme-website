@@ -1,6 +1,8 @@
+import TabContainer from "./tabContainer";
+
 const ManufactureTab = () => {
   return (
-    <ul className="list-disc">
+    <TabContainer>
       <li>
         Your deposit is non-refundable and covers the cost of purchasing
         materials, hardware and finishes etc.
@@ -10,7 +12,7 @@ const ManufactureTab = () => {
         This can be discussed depending on the project and schedule of the
         studio at the time.
       </li>
-    </ul>
+    </TabContainer>
   );
 };
 

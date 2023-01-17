@@ -1,10 +1,11 @@
 import Header from "~/components/header";
 import ScrollToTop from "~/components/scrollToTop";
+import Container from "~/components/container";
 import grame from "../../public/grame.png";
 
 export default function Design() {
   return (
-    <div className="h-[calc(100vh-10rem)] pt-16 px-20">
+    <Container>
       <Header />
       <div className="bg-roseWhite flex flex-col md:flex-row mt-10">
         <div className="md:w-1/2">
@@ -24,6 +25,6 @@ export default function Design() {
         </div>
       </div>
       <ScrollToTop />
-    </div>
+    </Container>
   );
 }
