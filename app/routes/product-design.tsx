@@ -17,7 +17,7 @@ export default function Design() {
         </div>
 
         <div className="flex flex-col text-roseBrown justify-center items-center md:w-1/2 space-y-4 pl-3 md:pl-12 pb-10 md:pb-0">
-          <p className=" font-medium text-4xl md:text-6xl mt-4 leading-tight">
+          <p className=" font-medium text-4xl md:text-5xl mt-4 leading-tight">
             Product Design
           </p>
           <p className="mt-4 md:mr-14 font-normal text-xl">Coming Soon</p>

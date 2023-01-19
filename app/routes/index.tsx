@@ -20,7 +20,7 @@ export default function Index() {
         </div>
         <div className="md:w-1/2 flex flex-col space-y-4 md:justify-around px-3 pb-10 md:pb-0">
           <div className="flex flex-col text-roseBrown justify-center items-center">
-            <p className="font-medium text-4xl md:text-6xl mt-4 leading-tight">
+            <p className="font-medium text-4xl md:text-5xl mt-4 leading-tight">
               Bespoke Cabinetry
             </p>
             <Link
@@ -43,7 +43,7 @@ export default function Index() {
         </div>
         <div className="md:w-1/2 flex flex-col space-y-4 md:justify-around pl-3 pb-10 md:pb-0">
           <div className="flex flex-col text-roseBrown justify-center items-center">
-            <p className=" font-medium text-4xl md:text-6xl mt-4 leading-tight">
+            <p className=" font-medium text-4xl md:text-5xl mt-4 leading-tight">
               Product Design
             </p>
             <p className="mt-4 md:mr-14 font-normal text-xl">Coming Soon</p>
